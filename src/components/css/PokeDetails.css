@@ -1,0 +1,75 @@
+.PokeContainerName {
+    background-color: #313131;
+    color: #fff;
+    margin: 20px 100px 0 100px;
+    /* padding-bottom: 25%; */
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Open Sans";
+   
+   
+    
+  }
+
+.Pokeimg{
+    align-items: flex-start;
+   flex:1 1 25%;
+   background-color: aqua;
+    margin: 0% 3% 2% 2% ;
+    justify-content: center;
+
+}
+
+.PokeHeading{
+    text-align: center;
+  
+  
+  }
+
+  
+.PokeContainer1 {
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+  
+    /* flex-wrap: wrap; */
+    
+  }
+
+  .PokeText{
+    display: inline-flexbox;
+    flex:3 1 25%; 
+    background-color: darkblue;
+    margin: 0% 2% 3% 2% ;
+    align-self: center;
+  }
+
+  .PokeContainer2{
+    display: flex;
+    
+   
+  }
+  .Pokeway{
+    flex:2 1 25%;
+    background-color: coral;  
+   
+  }
+  .PokeContainer3{
+    display: flexbox;
+  }
+  
+  .Pokesize{
+  flex:2 1 25%;
+  background-color: green;
+  margin: 1% 5% 2% 2%;
+  line-height: 1.5;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  }
+  .Pokesize p{
+    /* display: inline-block; */
+    /* word-wrap: break-word; */
+   
+  }
